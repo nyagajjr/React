@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import TodoList from './App.jsx'
 import Profiler from './learnProps.jsx'
-import Carder from './Card.jsx'
+import Avatar from './Properties.jsx'
 
 
 
@@ -13,10 +13,11 @@ import Carder from './Card.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
-    <TodoList />
-    <Profiler />
-    <Carder />
+    {/* <App /> */}
+    {/* <TodoList />
+    <Profiler /> */}
+    <Avatar />
+  
 
   </React.StrictMode>,
 )
