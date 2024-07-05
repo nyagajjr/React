@@ -27,6 +27,14 @@ function Avatar({ person, size }) {
         imageId: '1bX5QH6'
       }}
       />
+
+<Avatar 
+      size={100}
+      person={{ 
+        name: 'Lin Lanying',
+        imageId: '1bX5QH6'
+      }}
+      />
         </>
       
     );
