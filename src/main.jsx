@@ -6,6 +6,8 @@ import TodoList from './App.jsx'
 import Profiler from './learnProps.jsx'
 import Avatar from './Properties.jsx'
 import Tiere from './Rendering.jsx'
+import MonthList from './leKeys.jsx'
+import Button from './Butn.jsx'
 
 
 
@@ -19,6 +21,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Profiler /> */}
     <Avatar />
     <Tiere />
+    <MonthList />\
+    <Button />
 
   
 
