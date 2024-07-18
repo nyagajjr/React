@@ -8,6 +8,7 @@ import Avatar from './Properties.jsx'
 import Tiere from './Rendering.jsx'
 import MonthList from './leKeys.jsx'
 import Button from './Butn.jsx'
+import FProp from './fxnProps.jsx'
 
 
 
@@ -21,8 +22,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Profiler /> */}
     <Avatar />
     <Tiere />
-    <MonthList />\
+    <MonthList />
     <Button />
+    <FProp />
 
   
 

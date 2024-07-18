@@ -1,8 +1,27 @@
 // data transfers between components
+/*
+-- This prop is not destructured
 
-function Btn(){
+function Btn(props){
+    const btnStyle = {
+        color: props.color,
+        fontSize: props.fontSize + 'px'
+    };
     return(
-        <button>Click Me!</button>
+        <button style = {btnStyle}>{props.text}</button>
+    )
+}
+*/
+
+//Destructured prop
+
+function Btn({text, color, fontSize}){
+    const btnStyle = {
+        color: color,
+        fontSize: fontSize + 'px'
+    };
+    return(
+        <button style = {btnStyle}>{text}</button>
     )
 }
 
@@ -18,13 +37,15 @@ variations would very quickly lead to a LOT of code duplication. */
 
 /* +++ using props, we can account for any 
 number of variations with a single button component. +++  */
-function Button(props){
+function Button(){
     return(
         <>
-        <Btn />
-        {/* <Btn2 /> */}
+        <Btn text ='Click Me!' color='blue' fontSize={12} />
+        <Btn text ='Click You!' color='green' fontSize={12}/>
+        <Btn text ='Click Them!' color='orange' fontSize={12}/>
         </>
     )
 }
+<br />
 
 export default Button;
