@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
@@ -9,6 +9,8 @@ import Tiere from './Rendering.jsx'
 import MonthList from './leKeys.jsx'
 import Button from './Butn.jsx'
 import FProp from './fxnProps.jsx'
+import Person from './theState.jsx'
+
 
 
 
@@ -25,6 +27,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <MonthList />
     <Button />
     <FProp />
+    <Person />
+   
+
 
   
 
