@@ -10,6 +10,7 @@ import MonthList from './leKeys.jsx'
 import Button from './Butn.jsx'
 import FProp from './fxnProps.jsx'
 import Person from './theState.jsx'
+import Clock from './Clockk.jsx'
 
 
 
@@ -28,6 +29,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Button />
     <FProp />
     <Person />
+    <Clock />
+    
    
 
 
